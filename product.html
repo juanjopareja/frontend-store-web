@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontEnd Store</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="img/logo.png" alt="Logotipo">
+        </a>
+    </header>
+
+    <nav class="navigation">
+        <a href="index.html" class="navigation__link navigation__link--active">Tienda</a>
+        <a href="about.html" class="navigation__link">Nosotros</a>
+    </nav>
+
+    <main class="container">
+        <h1>React JS</h1>
+
+        <div class="tshirt">
+            <img class="tshirt__image" src="img/03.jpg" alt="imagen del producto">
+
+            <div class="tshirt__content">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam est suscipit expedita ab beatae nostrum optio provident reiciendis numquam mollitia. Nostrum exercitationem minus, at ducimus officia labore est architecto hic.</p>
+
+                <form class="form">
+                    <select class="form__field">
+                        <option disabled selected>--Seleccionar talla--</option>
+                        <option class="form__option">Pequeña</option>
+                        <option>Mediana</option>
+                        <option>Grande</option>
+                    </select>
+                    <input class="form__field" type="number" placeholder="Cantidad" min="1">
+                    <input class="form__submit" type="submit" value="Agregar al carrito">
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__text">Front End Store - Todos los derechos Reservados 2023.</p>
+    </footer>
+</body>
+</html>
